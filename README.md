@@ -10,12 +10,16 @@
 ### 🔒 Security Monitoring
 - **Real-time Security Dashboard** - Comprehensive overview of system security status
 <img width="1918" height="1080" alt="Screenshot 2025-09-07 at 23 39 57" src="https://github.com/user-attachments/assets/dd34ede7-8c66-47e6-b614-b49b76553511" />
+
 - **Apple Services Monitoring** - Track Apple service configurations and status
+
 <img width="1891" height="1071" alt="Screenshot 2025-09-07 at 23 40 35" src="https://github.com/user-attachments/assets/46afb3ce-b21a-41cd-85ae-5a42a735e963" />
+
 - **Network Security** - Monitor network configurations and connections
 - **Application Monitoring** - Track running applications and their security posture
 - **System Health Monitoring** - Monitor system performance and health metrics
 - **Endpoint Security** - Process, file, and network event monitoring
+
 <img width="2032" height="1077" alt="Screenshot 2025-09-07 at 23 39 34" src="https://github.com/user-attachments/assets/9e1397bb-7ba8-41e9-8d8c-a00acb8612a3" />
 
 ### 📊 Compliance Reporting
