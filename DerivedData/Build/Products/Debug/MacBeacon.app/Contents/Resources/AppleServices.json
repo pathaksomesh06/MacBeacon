@@ -1,0 +1,23 @@
+[
+    { "name": "ApplePushService Daemon", "endpoint": "gateway.push.apple.com" },
+    { "name": "Push Notifications (Port 443)", "endpoint": "api.push.apple.com" },
+    { "name": "Push Notifications (Port 5223)", "endpoint": "gateway.push.apple.com" },
+    { "name": "Claris Connect", "endpoint": "www.claris.com" },
+    { "name": "Device Setup", "endpoint": "setup.icloud.com" },
+    { "name": "Device Management", "endpoint": "mdmenrollment.apple.com" },
+    { "name": "Apple Business/School Manager", "endpoint": "business.apple.com" },
+    { "name": "Classroom and Schoolwork", "endpoint": "student.apple.com" },
+    { "name": "Software Updates", "endpoint": "swscan.apple.com" },
+    { "name": "Apps and Additional Content", "endpoint": "apps.apple.com" },
+    { "name": "Content Caching", "endpoint": "lcdn-locator.apple.com" },
+    { "name": "Beta Updates", "endpoint": "betaseed.apple.com" },
+    { "name": "Apple Diagnostics", "endpoint": "diagassets.apple.com" },
+    { "name": "Domain Name Resolution", "endpoint": "www.apple.com" },
+    { "name": "Certificate Validation", "endpoint": "crl.apple.com" },
+    { "name": "Apple Account", "endpoint": "appleid.apple.com" },
+    { "name": "iCloud", "endpoint": "www.icloud.com" },
+    { "name": "Apple Intelligence", "endpoint": "mask.apple-dns.net" },
+    { "name": "Associated Domains", "endpoint": "app-site-association.cdn-apple.com" },
+    { "name": "Tap to Pay on iPhone", "endpoint": "pos-settlement.com" },
+    { "name": "ID Verifier on iPhone", "endpoint": "identity.apple.com" }
+]

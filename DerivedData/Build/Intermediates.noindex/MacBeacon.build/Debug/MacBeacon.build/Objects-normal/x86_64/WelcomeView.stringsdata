@@ -1,0 +1,32 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/WelcomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "MDELogReader",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microsoft Defender for Endpoint Log Analysis",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Started",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 56
+        }
+      }
+    ]
+  },
+  "version": 1
+}

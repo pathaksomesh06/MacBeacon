@@ -1,0 +1,24 @@
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/FileListSidebar.swift":
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.dia"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.swiftconstvalues"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.o"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.d"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ComplianceDetailsModal.swift":
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.dia"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.swiftconstvalues"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.d"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.o"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/PSSOStatusChecker.swift":
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.swiftdeps"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.swiftconstvalues"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.dia"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.o"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.d"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ModernSecurityDashboard.swift":
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.d"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.swiftconstvalues"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.dia"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.o"

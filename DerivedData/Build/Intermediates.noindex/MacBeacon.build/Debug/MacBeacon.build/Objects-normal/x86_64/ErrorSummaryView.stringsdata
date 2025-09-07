@@ -1,0 +1,32 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ErrorSummaryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Security Events",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "No security events found",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 53
+        }
+      }
+    ]
+  },
+  "version": 1
+}

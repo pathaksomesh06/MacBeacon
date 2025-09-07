@@ -1,0 +1,48 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AboutView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Mac Beacon",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version 1.0 (1)",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microsoft Defender for Endpoint log analysis tool",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "© 2025 Maverick Labs",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Built for Security Administrators",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
+        }
+      }
+    ]
+  },
+  "version": 1
+}

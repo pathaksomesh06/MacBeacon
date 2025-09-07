@@ -1,0 +1,24 @@
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemHealthChecker.swift":
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.dia"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.o"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.d"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.swiftconstvalues"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.swiftdeps"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AzureLogAnalytics.swift":
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.swiftconstvalues"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.d"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.o"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.dia"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AboutView.swift":
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.dia"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.swiftdeps"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.swiftconstvalues"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.d"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.o"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ThreatEventsPanel.swift":
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.o"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.dia"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.swiftconstvalues"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.d"

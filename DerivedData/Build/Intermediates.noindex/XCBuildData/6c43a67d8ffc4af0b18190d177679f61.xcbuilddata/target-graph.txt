@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'MacBeacon' in project 'MacBeacon' (no dependencies)

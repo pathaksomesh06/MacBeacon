@@ -1,0 +1,56 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/FileMonitorPanel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "FILE SYSTEM MONITOR",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Filter",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "All",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Creates",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Writes",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reads",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      }
+    ]
+  },
+  "version": 1
+}

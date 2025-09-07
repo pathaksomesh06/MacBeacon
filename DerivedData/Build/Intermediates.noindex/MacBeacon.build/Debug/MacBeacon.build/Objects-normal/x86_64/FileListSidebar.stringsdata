@@ -1,0 +1,64 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/FileListSidebar.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Analysis Summary",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Event Types",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Defender Logs",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld files",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analyzing...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 101
+        }
+      }
+    ]
+  },
+  "version": 1
+}

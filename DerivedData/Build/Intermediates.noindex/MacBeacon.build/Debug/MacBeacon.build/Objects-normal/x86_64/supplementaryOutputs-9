@@ -1,0 +1,18 @@
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/InventoryService.swift":
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.dia"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.swiftdeps"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.swiftconstvalues"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.o"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.d"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/NetworkMonitor.swift":
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.d"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.swiftconstvalues"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.o"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.swiftdeps"
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.dia"
+"/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SecurityOverviewDashboard.swift":
+  diagnostics: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.dia"
+  const-values: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.swiftconstvalues"
+  dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.d"
+  object: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.o"
+  swift-dependencies: "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.swiftdeps"

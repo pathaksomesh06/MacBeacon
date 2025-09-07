@@ -1,0 +1,48 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/RawLogsPanel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Raw Logs",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld entries",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Filter logs...",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Thread %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full Log:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 125
+        }
+      }
+    ]
+  },
+  "version": 1
+}

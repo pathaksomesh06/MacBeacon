@@ -1,0 +1,498 @@
+{
+  "" : {
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeacon-master.dia",
+    "emit-module-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeacon-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeacon-master-emit-module.dia",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeacon-master.swiftdeps"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AboutView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AboutView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AdditionalSecurityChecker.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AdditionalSecurityChecker~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AppleNetworkServicesView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AppleNetworkServicesView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ApplicationSecurityChecker.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ApplicationSecurityChecker~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/AzureLogAnalytics.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/AzureLogAnalytics~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/BenchmarkService.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/BenchmarkService~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ColorExtension.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ColorExtension~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ComplianceDetailsModal.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceDetailsModal~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ComplianceReportingPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ComplianceReportingPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ContentView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/DetailView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/DetailView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EndpointSecurityMonitor.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EndpointSecurityMonitor~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnhancedLogService.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedLogService~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnhancedMainView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnhancedMainView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnterpriseCompliance.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliance~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnterpriseCompliancePanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseCompliancePanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnterpriseDeviceManagementView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EnterpriseDeviceManagementView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ErrorSummaryView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ErrorSummaryView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EventsListView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/EventsListView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/FileListSidebar.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileListSidebar~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/FileMonitorPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/FileMonitorPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/Inventory.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/Inventory~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/InventoryService.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/InventoryService~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/LogEntry.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogEntry~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/LogFileService.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogFileService~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/LogListView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/LogListView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/MSALIntegration.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MSALIntegration~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/MacBeaconApp.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MacBeaconApp~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/MainView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/MainView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ManagedSoftwareUpdatesView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ManagedSoftwareUpdatesView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ModernDashboardView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernDashboardView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ModernSecurityDashboard.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ModernSecurityDashboard~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/NetworkConfigurationView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkConfigurationView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/NetworkMonitor.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/NetworkMonitor~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/PSSOStatusChecker.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/PSSOStatusChecker~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ProcessMonitorPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ProcessMonitorPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/RawLogsPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/RawLogsPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SecurityMonitor.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityMonitor~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SecurityOverviewDashboard.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityOverviewDashboard~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SecurityTypes.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SecurityTypes~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SidebarView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SidebarView~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemHealthChecker.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemHealthChecker~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemIssuesModal.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemIssuesModal~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemMetrics.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/SystemMetrics~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ThreatAnalyzer.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatAnalyzer~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ThreatDetailsPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatDetailsPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ThreatEventsPanel.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/ThreatEventsPanel~partial.swiftmodule"
+  },
+  "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/WelcomeView.swift" : {
+    "const-values" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.swiftconstvalues",
+    "dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.d",
+    "diagnostics" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.dia",
+    "index-unit-output-path" : "/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.o",
+    "llvm-bc" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.bc",
+    "object" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.o",
+    "swift-dependencies" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView.swiftdeps",
+    "swiftmodule" : "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/DerivedData/Build/Intermediates.noindex/MacBeacon.build/Debug/MacBeacon.build/Objects-normal/x86_64/WelcomeView~partial.swiftmodule"
+  }
+}

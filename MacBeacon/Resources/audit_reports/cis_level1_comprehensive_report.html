@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Controls Level 1 - Comprehensive macOS Security Audit</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1600px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
+        .header { background: linear-gradient(135deg, #4169E1, #6495ED); color: white; padding: 50px; border-radius: 15px 15px 0 0; position: relative; overflow: hidden; }
+        .header::before { content: ''; position: absolute; top: -50%; right: -50%; width: 200%; height: 200%; background: repeating-linear-gradient(45deg, transparent, transparent 1px, rgba(255,255,255,0.1) 1px, rgba(255,255,255,0.1) 20px); }
+        .header h1 { margin: 0; font-size: 24px; font-weight: 300; position: relative; z-index: 1; }
+        .header .subtitle { font-size: 14px; opacity: 0.9; margin-top: 8px; position: relative; z-index: 1; }
+        .header .system-info { font-size: 10px; opacity: 0.8; margin-top: 12px; position: relative; z-index: 1; }
+        .content { padding: 20px; }
+        
+        .dashboard-container {
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .dashboard-card {
+            background-color: #ffffff;
+            border-radius: 6px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .dashboard-card .icon {
+            font-size: 16px;
+            margin-right: 8px;
+            padding: 6px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dashboard-card .details {
+            flex-grow: 1;
+        }
+
+        .dashboard-card h3 {
+            margin: 0 0 3px 0;
+            font-size: 10px;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .dashboard-card .value {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        .dashboard-card .sub-text {
+            margin: 3px 0 0 0;
+            font-size: 8px;
+            color: #6c757d;
+        }
+        
+        /* Card Specific Colors */
+        .overall-risk { border-top: 4px solid #dc3545; }
+        .overall-risk .icon { background-color: #f8d7da; color: #721c24; }
+        .overall-risk .value { color: #dc3545; }
+
+        .manual-reviews { border-top: 4px solid #ffc107; }
+        .manual-reviews .icon { background-color: #fff3cd; color: #856404; }
+        .manual-reviews .value { color: #856404; }
+
+        .failed-controls { border-top: 4px solid #fd7e14; }
+        .failed-controls .icon { background-color: #ffe8d6; color: #c05300; }
+        .failed-controls .value { color: #fd7e14; }
+
+        .passed-controls { border-top: 4px solid #28a745; }
+        .passed-controls .icon { background-color: #d4edda; color: #155724; }
+        .passed-controls .value { color: #28a745; }
+
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .summary-card {
+            color: white;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .summary-card h4 {
+            margin: 0 0 4px 0;
+            font-size: 9px;
+            font-weight: 500;
+        }
+
+        .summary-card .value {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .summary-passed { background-color: #007bff; }
+        .summary-score { background-color: #28a745; }
+        .summary-manual { background-color: #ffc107; }
+        .summary-failed { background-color: #dc3545; }
+
+        .executive-summary { background: linear-gradient(135deg, #f8f9fa, #e9ecef); padding: 40px; border-radius: 15px; margin-bottom: 40px; border-left: 6px solid #4169E1; }
+        
+        .cis-control-section { margin-bottom: 20px; padding: 15px; border: 1px solid #e1e5e9; border-radius: 8px; background: #fafbfc; }
+        .cis-control-header { border-bottom: 2px solid #4169E1; padding-bottom: 10px; margin-bottom: 15px; }
+        .cis-control-title { color: #2c3e50; font-size: 16px; font-weight: 600; margin: 0; }
+        .cis-control-description { color: #6c757d; font-size: 12px; margin-top: 5px; line-height: 1.4; }
+        .cis-control-id { background: #4169E1; color: white; padding: 4px 8px; border-radius: 12px; font-size: 10px; font-weight: bold; display: inline-block; margin-bottom: 8px; }
+        
+        .sub-control { background: white; border: 1px solid #dee2e6; border-radius: 6px; margin: 10px 0; overflow: hidden; }
+        .sub-control-header { background: linear-gradient(90deg, #f8f9fa, #e9ecef); padding: 10px; border-bottom: 1px solid #dee2e6; }
+        .sub-control-id { font-family: 'Monaco', 'Courier New', monospace; font-size: 10px; background: #495057; color: white; padding: 2px 6px; border-radius: 8px; display: inline-block; margin-right: 8px; }
+        .sub-control-title { font-weight: 600; color: #2c3e50; font-size: 12px; }
+        .sub-control-body { padding: 12px; }
+        .sub-control-description { color: #6c757d; margin-bottom: 10px; line-height: 1.3; font-size: 11px; }
+        
+        .check-result { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #f0f0f0; }
+        .check-result:last-child { border-bottom: none; }
+        .check-details { flex: 1; }
+        .check-title { font-weight: 500; color: #2c3e50; margin-bottom: 5px; }
+        .check-description { font-size: 14px; color: #6c757d; }
+        .check-technical { font-size: 12px; color: #868e96; font-family: 'Monaco', 'Courier New', monospace; margin-top: 5px; }
+        
+        .status-badge { padding: 8px 16px; border-radius: 20px; font-weight: bold; font-size: 13px; text-transform: uppercase; }
+        .status-pass { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .status-fail { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .status-manual { background: #fff3cd; color: #856404; border: 1px solid #ffeaa7; }
+        .status-na { background: #e2e3e5; color: #383d41; border: 1px solid #c6c8ca; }
+        
+        .remediation { background: #fff3cd; border-left: 4px solid #ffc107; padding: 20px; margin: 15px 0; border-radius: 5px; }
+        .remediation h4 { color: #856404; margin-top: 0; }
+        
+        .implementation-guide { background: #d1ecf1; border-left: 4px solid #17a2b8; padding: 20px; margin: 15px 0; border-radius: 5px; }
+        .implementation-guide h4 { color: #0c5460; margin-top: 0; }
+        
+        .progress-container { margin: 30px 0; }
+        .progress-bar { width: 100%; height: 40px; background: #e9ecef; border-radius: 20px; overflow: hidden; position: relative; }
+        .progress-fill { height: 100%; transition: width 1s ease; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 16px; }
+        .progress-excellent { background: linear-gradient(90deg, #28a745, #20c997); }
+        .progress-good { background: linear-gradient(90deg, #17a2b8, #138496); }
+        .progress-warning { background: linear-gradient(90deg, #ffc107, #e0a800); }
+        .progress-danger { background: linear-gradient(90deg, #dc3545, #c82333); }
+        
+        .recommendations { background: #f8f9fa; padding: 40px; border-radius: 15px; margin-top: 40px; }
+        .priority-high { border-left: 4px solid #dc3545; }
+        .priority-medium { border-left: 4px solid #ffc107; }
+        .priority-low { border-left: 4px solid #28a745; }
+        
+        .mscp-reference { background: #e7f3ff; border: 1px solid #b3d9ff; padding: 15px; border-radius: 8px; margin: 10px 0; }
+        .mscp-reference h5 { color: #0066cc; margin-top: 0; }
+        
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+            .header::before { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ CIS Controls Level 1 - Comprehensive Security Audit</h1>
+            <div class="subtitle">Implementation Group 1 (IG1) - Essential Cyber Hygiene</div>
+            <div class="system-info">
+                System: macOS 26.0 (Build 25A5351b) |
+                Assessment Date: 2025-09-07 22:14:03 |
+                Standard: CIS Controls v8.0 |
+                Compliance Framework: mSCP Aligned
+            </div>
+        </div>
+        <div class="content">
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 1</div>
+                    <h2 class="cis-control-title">Inventory and Control of Enterprise Assets</h2>
+                    <p class="cis-control-description">Actively manage (inventory, track, and correct) all enterprise assets (end-user devices, including portable and mobile; network devices; non-computing/IoT devices; and servers) connected to the infrastructure physically, virtually, remotely, and those within cloud environments, to accurately know the totals and details of assets, in order to monitor and control what is connecting to the network.</p>
+                </div>
+                
+                <div class="mscp-reference">
+                    <h5>📋 mSCP Reference</h5>
+                    <p>This control aligns with mSCP baseline requirements for asset management, system inventory, and device tracking in macOS environments.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">1.1</span>
+                        <span class="sub-control-title">Establish and Maintain Detailed Enterprise Asset Inventory</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Establish and maintain an accurate, detailed, and up-to-date inventory of all enterprise assets with the potential to store or process data, to include: end-user devices (including portable and mobile), network devices, non-computing/IoT devices, and servers.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">System Asset Inventory Available</div>
+                        <div class="check-description">System profiler provides comprehensive hardware inventory</div>
+                        <div class="check-technical">Technical: system_profiler SPHardwareDataType available</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Enterprise Asset Management Tool</div>
+                        <div class="check-description">Manual verification required for asset management solution</div>
+                        <div class="check-technical">Technical: No standard MDM tools detected</div>
+                    </div>
+                    <div class="status-badge status-manual">MANUAL</div>
+                </div>
+                    </div>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">1.2</span>
+                        <span class="sub-control-title">Address Unauthorized Assets</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Ensure that a process exists to address unauthorized assets on a weekly basis.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Unauthorized Asset Detection</div>
+                        <div class="check-description">High number of network interfaces or connections</div>
+                        <div class="check-technical">Technical: Network interfaces:       27, Active connections:       18</div>
+                    </div>
+                    <div class="status-badge status-manual">MANUAL</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 2</div>
+                    <h2 class="cis-control-title">Inventory and Control of Software Assets</h2>
+                    <p class="cis-control-description">Actively manage (inventory, track, and correct) all software (operating systems and applications) on the network so that only authorized software is installed and can execute, and that unauthorized and unmanaged software is found and prevented from installation or execution.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">2.1</span>
+                        <span class="sub-control-title">Establish and Maintain a Software Inventory</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Establish and maintain a detailed inventory of all licensed software installed on enterprise assets.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Software Execution Control (Gatekeeper)</div>
+                        <div class="check-description">Gatekeeper enforces software verification</div>
+                        <div class="check-technical">Technical: spctl --status: assessments enabled</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">System Integrity Protection</div>
+                        <div class="check-description">SIP prevents unauthorized system software modification</div>
+                        <div class="check-technical">Technical: csrutil status: System Integrity Protection status: enabled.</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Application Inventory</div>
+                        <div class="check-description">Manual verification of installed applications required</div>
+                        <div class="check-technical">Technical: Applications:       56 user apps,       46 system apps</div>
+                    </div>
+                    <div class="status-badge status-manual">MANUAL</div>
+                </div>
+                    </div>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">2.2</span>
+                        <span class="sub-control-title">Ensure Authorized Software is Currently Supported</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Ensure that only currently supported software is designated as authorized in the software inventory for enterprise assets.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Operating System Support Status</div>
+                        <div class="check-description">macOS version is currently supported by Apple</div>
+                        <div class="check-technical">Technical: macOS 26.0 (supported)</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 3</div>
+                    <h2 class="cis-control-title">Data Protection</h2>
+                    <p class="cis-control-description">Develop processes and technical controls to identify, classify, securely handle, retain, and dispose of data.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">3.11</span>
+                        <span class="sub-control-title">Encrypt Sensitive Data at Rest</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Encrypt sensitive data at rest on servers, applications, and databases containing sensitive data.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Full Disk Encryption (FileVault)</div>
+                        <div class="check-description">FileVault provides comprehensive data-at-rest encryption</div>
+                        <div class="check-technical">Technical: fdesetup status: FileVault is On.</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Hardware Security Features</div>
+                        <div class="check-description">Hardware-based security features detected</div>
+                        <div class="check-technical">Technical: Secure boot/T2 chip present</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 4</div>
+                    <h2 class="cis-control-title">Secure Configuration of Enterprise Assets and Software</h2>
+                    <p class="cis-control-description">Establish and maintain the secure configuration of enterprise assets (end-user devices, including portable and mobile; network devices; non-computing/IoT devices; and servers) and software (operating systems and applications).</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">4.1</span>
+                        <span class="sub-control-title">Establish and Maintain a Secure Configuration Process</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Establish and maintain a secure configuration process for enterprise assets (end-user devices, including portable and mobile; network devices; non-computing/IoT devices; and servers) and software (operating systems and applications).</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Automatic Security Updates</div>
+                        <div class="check-description">Automatic security updates not fully configured</div>
+                        <div class="check-technical">Technical: AutoCheck: 0, AutoDownload: 1</div>
+                    </div>
+                    <div class="status-badge status-fail">FAIL</div>
+                </div>
+                <div class="remediation">
+                    <h4>🔧 Immediate Remediation Required</h4>
+                    <p>Enable automatic updates: System Preferences > Software Update</p>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Screen Lock Configuration</div>
+                        <div class="check-description">Screen lock not properly configured</div>
+                        <div class="check-technical">Technical: askForPassword: 0, delay: 999 seconds</div>
+                    </div>
+                    <div class="status-badge status-fail">FAIL</div>
+                </div>
+                <div class="remediation">
+                    <h4>🔧 Immediate Remediation Required</h4>
+                    <p>Configure immediate screen lock: System Preferences > Security & Privacy</p>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Guest Account Disabled</div>
+                        <div class="check-description">Guest account properly disabled</div>
+                        <div class="check-technical">Technical: GuestEnabled: 0</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 5</div>
+                    <h2 class="cis-control-title">Account Management</h2>
+                    <p class="cis-control-description">Use processes and tools to assign and manage authorization to credentials for user accounts, including administrator accounts, as well as service accounts, to enterprise assets and software.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">5.1</span>
+                        <span class="sub-control-title">Establish and Maintain an Inventory of Accounts</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Establish and maintain an inventory of all accounts managed in the enterprise.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">User Account Management</div>
+                        <div class="check-description">High number of user accounts - review required</div>
+                        <div class="check-technical">Technical: Total users:        4, Admin users:        7</div>
+                    </div>
+                    <div class="status-badge status-manual">MANUAL</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Shared Account Prevention</div>
+                        <div class="check-description">No obvious shared accounts detected</div>
+                        <div class="check-technical">Technical: Shared-named accounts:        0</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 6</div>
+                    <h2 class="cis-control-title">Access Control Management</h2>
+                    <p class="cis-control-description">Use processes and tools to create, assign, manage, and revoke access credentials and privileges for user, administrator, and service accounts for enterprise assets and software.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">6.1</span>
+                        <span class="sub-control-title">Establish an Access Granting Process</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Establish and follow a process, preferably automated, for granting access to enterprise assets upon new hire, promotion, or role change of a user.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Password Policy Configuration</div>
+                        <div class="check-description">Password policies are configured</div>
+                        <div class="check-technical">Technical: pwpolicy configured with policies</div>
+                    </div>
+                    <div class="status-badge status-pass">PASS</div>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Privileged Access Control</div>
+                        <div class="check-description">Verify sudo configuration</div>
+                        <div class="check-technical">Technical: Basic sudo config detected</div>
+                    </div>
+                    <div class="status-badge status-manual">MANUAL</div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cis-control-section">
+                <div class="cis-control-header">
+                    <div class="cis-control-id">CIS Control 12</div>
+                    <h2 class="cis-control-title">Network Infrastructure Management</h2>
+                    <p class="cis-control-description">Establish, implement, and actively manage (track, report, correct) network devices, in order to prevent attackers from exploiting vulnerable network services and access points.</p>
+                </div>
+                
+                <div class="sub-control">
+                    <div class="sub-control-header">
+                        <span class="sub-control-id">12.1</span>
+                        <span class="sub-control-title">Ensure Network Infrastructure is Up-to-Date</span>
+                    </div>
+                    <div class="sub-control-body">
+                        <div class="sub-control-description">Ensure that network infrastructure is kept up-to-date.</div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Host-based Firewall</div>
+                        <div class="check-description">Firewall is disabled</div>
+                        <div class="check-technical">Technical: State: disabled</div>
+                    </div>
+                    <div class="status-badge status-fail">FAIL</div>
+                </div>
+                <div class="remediation">
+                    <h4>🔧 Immediate Remediation Required</h4>
+                    <p>Enable firewall: System Preferences > Security & Privacy > Firewall</p>
+                </div>
+                <div class="check-result">
+                    <div class="check-details">
+                        <div class="check-title">Network Sharing Services</div>
+                        <div class="check-description">Sharing services detected</div>
+                        <div class="check-technical">Technical: Active sharing services:       10</div>
+                    </div>
+                    <div class="status-badge status-fail">FAIL</div>
+                </div>
+                <div class="remediation">
+                    <h4>🔧 Immediate Remediation Required</h4>
+                    <p>Disable unnecessary sharing: System Preferences > Sharing</p>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-container">
+                <h2 style="font-weight: 500; font-size: 14px; color: #2c3e50; margin-bottom: 10px;">📊 Risk Assessment Dashboard</h2>
+                <div class="dashboard-grid">
+                    <div class="dashboard-card overall-risk">
+                        <div class="icon">🔍</div>
+                        <div class="details">
+                            <h3>Overall Risk Level</h3>
+                            <p class="value">CRITICAL</p>
+                            <p class="sub-text">Score: 50% | Fair</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card manual-reviews">
+                        <div class="icon">⚠️</div>
+                        <div class="details">
+                            <h3>Manual Reviews</h3>
+                            <p class="value">5</p>
+                            <p class="sub-text">Controls needing manual verification</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card failed-controls">
+                        <div class="icon">❌</div>
+                        <div class="details">
+                            <h3>Failed Controls</h3>
+                            <p class="value">4</p>
+                            <p class="sub-text">Critical security gaps requiring action</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card passed-controls">
+                        <div class="icon">✅</div>
+                        <div class="details">
+                            <h3>Passed Controls</h3>
+                            <p class="value">9</p>
+                            <p class="sub-text">Controls meeting CIS requirements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-grid">
+                    <div class="summary-card summary-passed">
+                        <h4>CIS IG1 Controls Passed</h4>
+                        <p class="value">9 / 18</p>
+                    </div>
+                    <div class="summary-card summary-score">
+                        <h4>Compliance Score</h4>
+                        <p class="value">50%</p>
+                    </div>
+                    <div class="summary-card summary-manual">
+                        <h4>Manual Reviews</h4>
+                        <p class="value">5</p>
+                    </div>
+                    <div class="summary-card summary-failed">
+                        <h4>Failed Controls</h4>
+                        <p class="value">4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recommendations">
+                <h2>🚀 Strategic Recommendations & Action Plan</h2>
+                
+                <div class="implementation-guide priority-high">
+                    <h4>🔴 CRITICAL - Immediate Action Required (0-30 days)</h4>
+                    <ul>
+                        <li><strong>Enable FileVault Encryption:</strong> Protect sensitive data with full disk encryption</li>
+                        <li><strong>Configure Host Firewall:</strong> Enable and properly configure macOS application firewall</li>
+                        <li><strong>Disable Guest Account:</strong> Prevent unauthorized system access</li>
+                        <li><strong>Enable Automatic Security Updates:</strong> Ensure timely installation of critical patches</li>
+                        <li><strong>Configure Screen Lock:</strong> Implement immediate password requirement for screen saver</li>
+                    </ul>
+                </div>
+                
+                <div class="implementation-guide priority-medium">
+                    <h4>🟡 HIGH PRIORITY - Implement within 90 days</h4>
+                    <ul>
+                        <li><strong>Deploy Asset Management Solution:</strong> Implement JAMF or similar MDM solution</li>
+                        <li><strong>Establish Password Policies:</strong> Configure and enforce strong password requirements</li>
+                        <li><strong>Review User Accounts:</strong> Audit and clean up unnecessary user accounts</li>
+                        <li><strong>Harden Network Services:</strong> Disable unnecessary network sharing services</li>
+                        <li><strong>Implement Software Inventory:</strong> Deploy automated software discovery and control</li>
+                    </ul>
+                </div>
+                
+                <div class="implementation-guide priority-low">
+                    <h4>🟢 MEDIUM PRIORITY - Ongoing improvements</h4>
+                    <ul>
+                        <li><strong>Regular Security Assessments:</strong> Schedule quarterly CIS compliance audits</li>
+                        <li><strong>Staff Security Training:</strong> Implement comprehensive cybersecurity awareness program</li>
+                        <li><strong>Incident Response Planning:</strong> Develop and test incident response procedures</li>
+                        <li><strong>Backup and Recovery:</strong> Implement comprehensive data backup strategy</li>
+                        <li><strong>Documentation:</strong> Maintain updated security policies and procedures</li>
+                    </ul>
+                </div>
+                
+                <div class="mscp-reference">
+                    <h5>📚 Additional Resources</h5>
+                    <ul>
+                        <li><strong>mSCP Project:</strong> <a href="https://github.com/usnistgov/macos_security">https://github.com/usnistgov/macos_security</a></li>
+                        <li><strong>CIS Controls:</strong> <a href="https://www.cisecurity.org/controls/">https://www.cisecurity.org/controls/</a></li>
+                        <li><strong>Apple Security Guide:</strong> <a href="https://support.apple.com/guide/security/">https://support.apple.com/guide/security/</a></li>
+                        <li><strong>NIST Cybersecurity Framework:</strong> <a href="https://www.nist.gov/cyberframework">https://www.nist.gov/cyberframework</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

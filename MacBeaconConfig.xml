@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <bundleIdentifier>com.mavericklabs.MacBeacon</bundleIdentifier>
+    <azureLogAnalytics>
+        <enabled>true</enabled>
+        <workspaceId>REPLACE_WITH_YOUR_WORKSPACE_ID</workspaceId>
+        <primaryKey>REPLACE_WITH_YOUR_PRIMARY_KEY</primaryKey>
+        <logType>MacBeaconLogs</logType>
+        <weeklyReporting>
+            <enabled>true</enabled>
+            <intervalDays>7</intervalDays>
+            <sendInstallationData>true</sendInstallationData>
+        </weeklyReporting>
+    </azureLogAnalytics>
+    <logging>
+        <level>Info</level>
+        <enableConsoleLogging>true</enableConsoleLogging>
+    </logging>
+    <refresh>
+        <autoRefresh>true</autoRefresh>
+        <interval>30.0</interval>
+    </refresh>
+</configuration>

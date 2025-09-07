@@ -1,0 +1,16 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ModernDashboardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, World!",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 6
+        }
+      }
+    ]
+  },
+  "version": 1
+}

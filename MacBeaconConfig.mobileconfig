@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.mavericklabs.MacBeacon.config</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>1230B747-8BF0-45F9-B6EC-BFDE2322CCD4</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.mavericklabs.MacBeacon</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>azureLogAnalytics</key>
+                                <dict>
+                                    <key>enabled</key>
+                                    <true/>
+                                    <key>workspaceId</key>
+                                    <string>REPLACE_WITH_YOUR_WORKSPACE_ID</string>
+                                    <key>primaryKey</key>
+                                    <string>REPLACE_WITH_YOUR_PRIMARY_KEY</string>
+                                    <key>logType</key>
+                                    <string>MacBeaconLogs</string>
+                                    <key>weeklyReporting</key>
+                                    <dict>
+                                        <key>enabled</key>
+                                        <true/>
+                                        <key>intervalDays</key>
+                                        <integer>7</integer>
+                                        <key>sendInstallationData</key>
+                                        <true/>
+                                    </dict>
+                                </dict>
+                                <key>logging</key>
+                                <dict>
+                                    <key>level</key>
+                                    <string>Info</string>
+                                    <key>enableConsoleLogging</key>
+                                    <true/>
+                                </dict>
+                                <key>refresh</key>
+                                <dict>
+                                    <key>autoRefresh</key>
+                                    <true/>
+                                    <key>interval</key>
+                                    <real>30.0</real>
+                                </dict>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>MacBeacon Security Monitor Configuration</string>
+    <key>PayloadDisplayName</key>
+    <string>MacBeacon Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mavericklabs.MacBeacon.featurecontrol</string>
+    <key>PayloadOrganization</key>
+    <string>Maverick Labs</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>92B11F89-C204-48C1-9654-A6C4E355C6D8</string>
+    <key>PayloadVersion</key>
+            <integer>1</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+</dict>
+</plist>

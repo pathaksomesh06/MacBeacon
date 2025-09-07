@@ -1,0 +1,160 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/ComplianceDetailsModal.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Compliance Details",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Compliance Score",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last Updated: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Failing Requirements",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recommendations",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Assessment Information",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Status:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "Required Status:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "Impact:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 289
+        }
+      },
+      {
+        "comment": "",
+        "key": "Evidence:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 300
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remediation Steps:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 313
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 319
+        }
+      },
+      {
+        "comment": "",
+        "key": "Estimated Time to Fix:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 333
+        }
+      },
+      {
+        "comment": "",
+        "key": "Timeline: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 380
+        }
+      },
+      {
+        "comment": "",
+        "key": "Effort: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 388
+        }
+      },
+      {
+        "comment": "",
+        "key": "Required Resources:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 396
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 402
+        }
+      }
+    ]
+  },
+  "version": 1
+}

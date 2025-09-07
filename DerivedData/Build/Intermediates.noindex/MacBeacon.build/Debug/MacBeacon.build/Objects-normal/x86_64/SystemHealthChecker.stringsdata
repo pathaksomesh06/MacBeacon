@@ -1,0 +1,24 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemHealthChecker.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "System Health Checker",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 830
+        }
+      },
+      {
+        "comment": "",
+        "key": "No data",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 830
+        }
+      }
+    ]
+  },
+  "version": 1
+}

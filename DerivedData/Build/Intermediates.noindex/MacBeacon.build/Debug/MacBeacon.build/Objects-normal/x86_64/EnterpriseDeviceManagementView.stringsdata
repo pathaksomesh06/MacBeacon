@@ -1,0 +1,32 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/EnterpriseDeviceManagementView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enterprise Device Management",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "MDM enrollment, user account management, and SSO configuration",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 273
+        }
+      },
+      {
+        "comment": "",
+        "key": "This panel displays enterprise device management status including MDM enrollment, user account management, and SSO configuration.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 285
+        }
+      }
+    ]
+  },
+  "version": 1
+}

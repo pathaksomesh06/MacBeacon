@@ -1,0 +1,240 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SystemIssuesModal.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Overall Risk Level: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Risk Score: %lld/12",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analyzing system security...",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Performance",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hardware Health",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Health: Excellent",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "All system components are operating within normal parameters. No performance issues detected.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protection Status",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protection Active",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "Protection Disabled",
+        "location": {
+          "startingColumn": 87,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microsoft Defender is actively protecting your system from threats.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your system is currently vulnerable to real-time threats.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "Threat Statistics",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Protection Activity",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "No recent threats detected. Your system is being actively monitored and protected.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 283
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Score Dashboard",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 309
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Features Status",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 333
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Recommendations",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Based on your current security posture, consider enabling additional security features and running regular security audits.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active Network Connections",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 369
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Security Status",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 386
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Network Activity",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 403
+        }
+      },
+      {
+        "comment": "",
+        "key": "No suspicious network activity detected. All connections are properly encrypted and monitored.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Critical Issues Found",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your system appears to be well-secured with all major security features enabled.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 507
+        }
+      },
+      {
+        "comment": "",
+        "key": "Severity:",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 619
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recommendation:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 638
+        }
+      }
+    ]
+  },
+  "version": 1
+}

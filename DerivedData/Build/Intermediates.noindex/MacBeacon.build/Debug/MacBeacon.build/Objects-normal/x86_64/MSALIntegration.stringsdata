@@ -1,0 +1,112 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/MSALIntegration.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enterprise Authentication",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 260
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign in with your company account to access enterprise security features",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 264
+        }
+      },
+      {
+        "comment": "",
+        "key": "This app uses Microsoft Authentication Library (MSAL)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 286
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your credentials are managed securely by Microsoft",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign in with Microsoft",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "Authenticating...",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "Please wait while we verify your credentials",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 333
+        }
+      },
+      {
+        "comment": "",
+        "key": "Successfully Authenticated!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 345
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 364
+        }
+      },
+      {
+        "comment": "",
+        "key": "Authentication Failed",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "Try Again",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 386
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 393
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Out",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 461
+        }
+      }
+    ]
+  },
+  "version": 1
+}

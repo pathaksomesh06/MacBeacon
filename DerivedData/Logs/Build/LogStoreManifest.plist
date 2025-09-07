@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>2C1BE72E-E2BF-4D47-87DF-2432CD20B3BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2C1BE72E-E2BF-4D47-87DF-2432CD20B3BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>11</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MacBeacon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MacBeacon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MacBeacon with scheme MacBeacon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>778945801.39188504</real>
+			<key>timeStoppedRecording</key>
+			<real>778945813.19593096</real>
+			<key>title</key>
+			<string>Building project MacBeacon with scheme MacBeacon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2C1BE72E-E2BF-4D47-87DF-2432CD20B3BA</string>
+		</dict>
+		<key>DFED2412-22E3-467D-B04E-06CA158300FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DFED2412-22E3-467D-B04E-06CA158300FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>11</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MacBeacon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MacBeacon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MacBeacon with scheme MacBeacon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>778946136.08034897</real>
+			<key>timeStoppedRecording</key>
+			<real>778946146.23945999</real>
+			<key>title</key>
+			<string>Building project MacBeacon with scheme MacBeacon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DFED2412-22E3-467D-B04E-06CA158300FD</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

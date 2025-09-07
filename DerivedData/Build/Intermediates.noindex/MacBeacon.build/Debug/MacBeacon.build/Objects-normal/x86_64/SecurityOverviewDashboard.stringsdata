@@ -1,0 +1,512 @@
+{
+  "source": "/Users/someshpathak/Projects/WIP_Projects/MacBeacon/MacBeacon/SecurityOverviewDashboard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "REAL-TIME ACTIVITY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "LIVE",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 367
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Events/min",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 403
+        }
+      },
+      {
+        "comment": "",
+        "key": "THREAT DISTRIBUTION",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 450
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security event breakdown",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 453
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 475
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 487
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Events",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 490
+        }
+      },
+      {
+        "comment": "",
+        "key": "Event Details",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 524
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 531
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Event Summary",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 539
+        }
+      },
+      {
+        "comment": "",
+        "key": "High Risk Processes: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 550
+        }
+      },
+      {
+        "comment": "",
+        "key": "Medium Risk Processes: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 563
+        }
+      },
+      {
+        "comment": "",
+        "key": "File Operations: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 576
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Connections: %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 589
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Security Events Detected",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 602
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your system is currently secure with no high-risk activities, file modifications, or suspicious network connections detected.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 606
+        }
+      },
+      {
+        "comment": "",
+        "key": "QUICK ACTIONS",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 741
+        }
+      },
+      {
+        "comment": "",
+        "key": "LIVE ACTIVITY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 848
+        }
+      },
+      {
+        "comment": "",
+        "key": "LIVE",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 866
+        }
+      },
+      {
+        "comment": "",
+        "key": "SECURITY TIPS",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1009
+        }
+      },
+      {
+        "comment": "",
+        "key": "File Activity Monitor",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1064
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1068
+        }
+      },
+      {
+        "comment": "",
+        "key": "File Monitoring Active",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1080
+        }
+      },
+      {
+        "comment": "",
+        "key": "Real-time file monitoring is active through the Endpoint Security API. No recent file access events have been captured, which is normal for background system monitoring.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1084
+        }
+      },
+      {
+        "comment": "",
+        "key": "Process Activity Monitor",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1179
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1183
+        }
+      },
+      {
+        "comment": "",
+        "key": "Process Monitoring Active",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Real-time process monitoring is active through the Endpoint Security API. No recent process execution events have been captured, which is normal for background system monitoring.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1199
+        }
+      },
+      {
+        "comment": "",
+        "key": "PID: %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1248
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Activity Monitor",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1296
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Monitoring Active",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1307
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network monitoring is active and tracking %lld connection events through the Endpoint Security API.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network monitoring is active through the Endpoint Security API. No recent network connection events have been captured by the security monitoring system.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1317
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Activity",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network connections are being monitored in real-time. Detailed connection logs and analysis will be enhanced in future updates.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Check Results",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1372
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1376
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Check Complete",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1387
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security assessment completed successfully. The system has been analyzed for potential threats and security vulnerabilities.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1395
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Summary",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1416
+        }
+      },
+      {
+        "comment": "",
+        "key": "✅ Real-time protection active - System is being monitored",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 1420
+        }
+      },
+      {
+        "comment": "",
+        "key": "⚠️ Real-time protection disabled - Enable monitoring for better security",
+        "location": {
+          "startingColumn": 137,
+          "startingLine": 1420
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Security Alerts",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1447
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1451
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Security Alerts",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1467
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your system appears to be secure with no suspicious activity detected in the last 24 hours.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1471
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Alerts Detected",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1489
+        }
+      },
+      {
+        "comment": "",
+        "key": "The system has identified potential security threats that require attention.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1493
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Status Overview",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1532
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1536
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Status: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1547
+        }
+      },
+      {
+        "comment": "",
+        "key": "Comprehensive system health and security status overview. All critical systems are being monitored in real-time.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1552
+        }
+      },
+      {
+        "comment": "",
+        "key": "Overall Assessment",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1573
+        }
+      },
+      {
+        "comment": "",
+        "key": "✅ Real-time protection active - System is being monitored",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 1577
+        }
+      },
+      {
+        "comment": "",
+        "key": "⚠️ Real-time protection disabled - Enable monitoring for better security",
+        "location": {
+          "startingColumn": 137,
+          "startingLine": 1577
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Security Report",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1604
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1608
+        }
+      },
+      {
+        "comment": "",
+        "key": "Report Ready for Export",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1619
+        }
+      },
+      {
+        "comment": "",
+        "key": "A comprehensive security report has been generated with current system status, threat assessments, and activity summaries.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1626
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Status",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1646
+        }
+      },
+      {
+        "comment": "",
+        "key": "Report would be saved to Documents folder. This feature will be enhanced in future updates with additional export formats and customization options.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1650
+        }
+      }
+    ]
+  },
+  "version": 1
+}
