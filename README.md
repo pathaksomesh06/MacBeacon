@@ -152,18 +152,5 @@ The application includes shell scripts for generating compliance reports:
 
 Thankyou [@oktay-sari ](https://github.com/oktay-sari) for your insights & contribution to the project
 
-## 🤝 Contributing
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 🙏 Acknowledgments
-
-- Apple for the excellent SwiftUI framework
-- Microsoft for Azure Log Analytics integration
-- The open-source community for inspiration and tools
-
 
 **MacBeacon** - Keeping your Mac secure, one scan at a time. 🛡️
