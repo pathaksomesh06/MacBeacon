@@ -78,9 +78,7 @@ To enable centralized logging:
 3. **Or manually configure** using the provided configuration files
 
 ### Configuration Files
-- `MacBeaconConfig.plist` - Simple plist configuration
 - `MacBeaconConfig.mobileconfig` - Apple Configuration Profile
-- `MacBeaconConfig.xml` - XML configuration format
 
 ## 🏢 Enterprise Deployment
 
@@ -92,6 +90,7 @@ To enable centralized logging:
 
 2. **Deploy Configuration Profile**
    - Use `MacBeaconConfig.mobileconfig` for Configuration Profiles
+<img width="1505" height="774" alt="Screenshot 2025-09-08 at 16 32 04" src="https://github.com/user-attachments/assets/74a75463-6682-4862-8cdf-934b5fc6db25" />
 
 3. **Configure Azure Log Analytics**
    - Update configuration with your workspace details
@@ -135,12 +134,6 @@ MacBeacon/
 ├── MacBeacon.xcodeproj/      # Xcode project file
 └── README.md                 # This file
 ```
-
-### Key Components
-- **ConfigurationManager.swift** - Configuration and Azure integration
-- **BenchmarkService.swift** - Compliance reporting engine
-- **ModernSecurityDashboard.swift** - Main UI dashboard
-- **Compliance Scripts** - CIS, NIST, GDPR audit scripts
 
 ### Building Compliance Reports
 The application includes shell scripts for generating compliance reports:
